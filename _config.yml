@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+title: "HPC & Climate Analytics"
+description: "Astrophysics · Numerical Modeling · Data Science"
+
+# Buttons in header:
+show_downloads: false
+google_analytics:
