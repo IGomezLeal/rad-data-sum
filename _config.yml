@@ -5,9 +5,14 @@ url: "" # Tu URL si la tienes (ej: https://nombre.github.io)
 lang: en
 
 # Configuración del Tema TeXt
+# Forzamos a vaciar el tema antiguo y activar el nuevo
+theme: []
 # Si usas GitHub Pages directamente, usa "remote_theme"
 remote_theme: kitian616/jekyll-TeXt-theme
-# Si lo corres localmente con la gema instalada, usa "theme: jekyll-TeXt-theme"
+
+# Opciones de diseño obligatorias para TeXt (Añade esto al final del archivo)
+page:
+  theme: default
 
 # Autor (Esto aparecerá en el Sidebar automáticamente)
 author:
