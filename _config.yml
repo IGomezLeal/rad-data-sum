@@ -1,7 +1,36 @@
-theme: jekyll-theme-cayman
+# Configuración Global
 title: "HPC & Climate Analytics"
 description: "Astrophysics · Numerical Modeling · Data Science"
+url: "" # Tu URL si la tienes (ej: https://nombre.github.io)
+lang: en
 
-# Buttons in header:
-show_downloads: false
-google_analytics:
+# Configuración del Tema TeXt
+# Si usas GitHub Pages directamente, usa "remote_theme"
+remote_theme: kitian616/jekyll-TeXt-theme
+# Si lo corres localmente con la gema instalada, usa "theme: jekyll-TeXt-theme"
+
+# Autor (Esto aparecerá en el Sidebar automáticamente)
+author:
+  name: Illeana Gomez-Leal, PhD.
+  avatar: /assets/fig/fpro.png # Asegúrate de que la ruta sea correcta
+  bio: "Physics · Data Science"
+  location: "Cornell University"
+  links:
+    - title: ORCID
+      url: https://orcid.org/0000-0003-2254-5936
+    - title: ResearchGate
+      url: https://www.researchgate.net/profile/Illeana-Gomez-Leal-2
+
+# Analíticas (Reemplaza con tu ID si lo tienes)
+tracking:
+  google:
+    id: 
+
+# Opciones de diseño
+paginate: 10
+markdown: kramdown
+highlighter: rouge
+
+# Configuración de fórmulas matemáticas (Importante para tus 4D Matrices)
+mathjax: true
+mathjax_auto_render: true
