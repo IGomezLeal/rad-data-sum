@@ -1,0 +1,17 @@
+# Configuración del Sitio
+title: "HPC & Climate Analytics"
+description: "Astrophysics · Numerical Modeling · Data Science"
+url: "" 
+lang: en
+
+# Tema nativo compatible con GitHub Pages
+remote_theme: just-the-docs/just-the-docs
+
+# Buscador interno integrado
+search_enabled: true
+search:
+  tokenizer: separator
+  separator: '[\s\-\,]+'
+
+# Apariencia del tema
+color_scheme: light
