@@ -13,37 +13,6 @@ Physics · Data Science · Numerical Modeling · HPC
 
 ---
 
-## 👤 Contact & Profiles
-{: .no_toc }
-
-<img src="/rad-data-sum/assets/fig/fpro.png" alt="Illeana Gomez-Leal, PhD." style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 3px solid #eee; margin-bottom: 15px;">
-
-* 🏫 Postdoctoral Associate at **Cornell University**
-* 🎓 **PhD. in Astrophysics**
-* 🔗 [ORCID Profile](https://orcid.org/0000-0003-2254-5936){:target="_blank"}
-* 🔗 [ResearchGate Profile](https://www.researchgate.net/profile/Illeana-Gomez-Leal-2){:target="_blank"}
-* 📄 [**Download Professional CV (PDF)**](/rad-data-sum/cv_graphics.pdf){:target="_blank"}{: .btn .btn-outline }
-
----
-
-## 🛠️ Production Stack
-{: .no_toc }
-
-* **Languages:** Python (Xarray, NumPy, Pandas), Fortran, Bash, SQL, IDL.
-* **Data Standards:** NetCDF4, HDF5 (multidimensional arrays).
-* **Infrastructure:** HPC (SLURM/PBS), Linux, Git, LaTeX.
-
----
-
-## 🤝 Research Collaborations
-{: .no_toc }
-
-* [**NCAR**](https://ncar.ucar.edu){:target="_blank"}: Prof. Simone Tilmes.
-* [**Planetary Sunshade Institute**](https://planetarysunshade.org){:target="_blank"}: Morgan Goodwin, CEO.
-* [**University of Nottingham, UK**](https://www.nottingham.ac.uk/engineering/departments/m3/index.aspx){:target="_blank"}: Prof. C. Cappelletti, Prof. N. Pushparaj, A. Sanchez.
-
----
-
 ## 🔬 Project Overview
 
 Technical summary focused on multi-terabyte data architecture, computational physics, and advanced climate engineering simulations within the **Community Earth System Model** (CESM GCM) framework.
