@@ -1,8 +1,10 @@
-# Configuración del Sitio
 title: "HPC & Climate Analytics"
 description: "Astrophysics · Numerical Modeling · Data Science"
-url: "" 
 lang: en
+
+# Estas son las líneas que faltaban y que acabo de añadir para ti:
+url: "https://IGomezLeal.github.io"
+baseurl: "/rad-data-sum"
 
 # Tema nativo compatible con GitHub Pages
 remote_theme: just-the-docs/just-the-docs
