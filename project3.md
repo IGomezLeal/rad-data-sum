@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "3. Dimming Field"
-nav_title: "3. Dimming Field"
+title: "3. 4D Matrix Simulation"
+nav_title: "3. 4D Matrix"
 parent: "🔬 Research Projects"
 nav_order: 3
 description: "4D numerical array embedding for time-space-wavelength dynamic forcing."
@@ -14,7 +14,7 @@ description: "4D numerical array embedding for time-space-wavelength dynamic for
   }
 </style>
 
-# 4D Spatio-temporal Matrix Implementation and Climate Simulations
+# 4D Spatio-temporal Matrix Implementation and Simulations
 {: .fs-8 }
 
 * **Framework:** Modification of the solar forcing arrays inside the CESM GCM radiative transfer and the chemical modules.
@@ -22,8 +22,10 @@ description: "4D numerical array embedding for time-space-wavelength dynamic for
 * **Analytics Workflow:** Implemented dynamic spatiotemporal distributions of dimming factors that scale the solar irradiance at the top of the atmosphere. Analysis of multi-variable climate responses to the localized radiative forcing over a long-term 30-year timeline [2035, 2065].
 * **Core Skills:** Advanced Fortran modifications, NetCDF data creation and implementation on the global climate model, multidimensional coordinate mapping, and high-resolution 3D visualization.
 
----
+<!-- ================= PIE DE PÁGINA (HTML LIMPIO PARA ASIMETRÍA) ================= -->
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
 
-📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.  
-🔒 **Privacy Note:** Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.
-{: .fs-2 .text-grey-dk-000 }
+<div style="font-size: 0.85em; color: #555; line-height: 1.6;">
+  <p>📝 <strong>Note:</strong> This repository showcases specific technical implementations in <strong>HPC and Climate Analytics</strong>.</p>
+  <p>🔒 <strong>Privacy Note:</strong> Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.</p>
+</div>
