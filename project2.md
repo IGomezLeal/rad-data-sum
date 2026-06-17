@@ -3,6 +3,7 @@ layout: default
 title: "2. Spectral Dimming"
 parent: "🔬 Research Projects"
 nav_order: 2
+description: "Radiative transfer integrations of Lagrangian L1 space filters."
 ---
 
 # Filter Analysis, Spectral Dimming and Climatic Response produced by a space-based Sunshade

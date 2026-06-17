@@ -3,6 +3,7 @@ layout: default
 title: "1. Bolometric Dimming"
 parent: "🔬 Research Projects"
 nav_order: 1
+description: "Hardcoded parameterizations of non-spectral solar constant reductions."
 ---
 
 # Bolometric Dimming and Climatic Response produced by a space-based Sunshade
