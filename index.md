@@ -20,6 +20,9 @@ Technical summary focused on multi-terabyte data architecture, computational phy
 
 This repository serves as a technical showcase of my research at **Cornell University**, focusing on large-scale data architecture and numerical modifications within the **CESM GCM** framework. The core objective is to simulate the spectral and bolometric impacts of space-based solar radiation management (SRM) strategies.
 
+> **HPC Infrastructure:** All simulations and data pipelines were architected and executed on the [**NCAR Derecho**](https://www.cisl.ucar.edu/capabilities/derecho){:target="_blank"} High-Performance Computing (HPC) cluster, utilizing [**NetCDF4**](https://docs.unidata.ucar.edu/netcdf-c/current/){:target="_blank"} standards for high-throughput I/O of **60 TB+** datasets.
+{: .block-tip }
+
 ### 📁 Data Standards: Why NetCDF?
 
 The projects in this repository utilize **NetCDF (Network Common Data Form)**, the industry standard for array-oriented scientific data:
@@ -27,7 +30,6 @@ The projects in this repository utilize **NetCDF (Network Common Data Form)**, t
 * **Multidimensional:** Almacenamiento de variables (temperatura, presión, irradiancia) en coordenadas espacio-temporales 4D ($x, y, z, t$).
 * **Self-Describing:** Cada archivo incluye metadatos (unidades, coordenadas), asegurando la integridad de los datos.
 * **Performance:** Optimizado para lectura/escritura paralela a gran escala en el supercomputador **NCAR Derecho**, facilitando el manejo de datasets de **60 TB+**.
-{: .block-tip }
 
 ---
 
