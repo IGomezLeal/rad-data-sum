@@ -3,6 +3,7 @@ layout: default
 title: "🔬 Research Projects"
 nav_order: 2
 has_children: true
+has_toc: false
 permalink: /projects/
 description: "High-performance computing and advanced numerical simulations in astrophysics and climate analytics."
 ---
