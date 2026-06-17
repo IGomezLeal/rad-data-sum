@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "1. Bolometric Dimming"
-nav_order: 2
+parent: "🔬 Research Projects"
+nav_order: 1
 ---
 
 # Bolometric Dimming and Climatic Response produced by a space-based Sunshade
