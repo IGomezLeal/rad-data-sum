@@ -59,4 +59,4 @@ Use the sidebar menu or click directly below to explore the detailed numerical s
 ---
 
 📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.  
-🔒 **Privacy Note:** Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.
+🔒 **Privacy Note:** Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.ines or Fortran core modifications) are available upon request.
