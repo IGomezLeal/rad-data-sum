@@ -11,6 +11,10 @@ description: "Radiative transfer integrations of Lagrangian L1 space filters."
     font-weight: 500 !important;
     letter-spacing: 0.5px !important;
   }
+  .side-bar {
+    width: 290px !important; /* Ajustado a los 290px que unificamos */
+    min-width: 290px !important;
+  }
 </style>
 
 # Filter Analysis, Spectral Dimming and Climatic Response produced by a space-based Sunshade
