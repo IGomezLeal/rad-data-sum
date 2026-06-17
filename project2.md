@@ -4,12 +4,12 @@ title: "2. Spectral Dimming"
 nav_order: 3
 ---
 
-# Filter Analysis, Spectral Dimming and Climatic Response
+# Filter Analysis, Spectral Dimming and Climatic Response produced by a space-based Sunshade
 {: .fs-8 }
 
-* **Framework:** CESM con el Whole Atmosphere Community Climate Model (WACCM).
-* **Implementation:** Integración numérica del efecto de atenuación de un filtro espectral en el punto de Lagrange L1 dentro del núcleo de transferencia radiativa del GCM.
-* **Analytics Workflow:** Desarrollo de pipelines de análisis espectral para evaluar la atenuación de radiación en bandas de longitud de onda del infrarrojo cercano. Diagnósticos de anomalías climáticas multidimensionales bajo el escenario futuro **SSP2-4.5**.
-* **Big Data Scale:** Pipelines de E/S de alto rendimiento para el manejo de outputs de modelos climáticos de **60 TB**. Análisis estadístico posterior mediante flujos de trabajo en Python (Xarray/NumPy) paralelizados en el clúster HPC NCAR Derecho.
+* **Framework:** CESM with the Whole Atmosphere Community Climate Model (WACCM).
+* **Implementation:** Numerical integration of a space-based (Lagrangian point L1) spectral filter sunshade dimming effect into the GCM radiative transfer core.
+* **Analytics Workflow:** Developed spectral analysis pipelines to evaluate different wavelength bands radiation attenuations on the near infrared, focusing on different climate responses. Computed multidimensional climate anomaly diagnostics under the Shared Socioeconomic Pathways (SSP) framework **SSP2-4.5** future scenario.
+* **Big Data Scale:** High-throughput I/O pipelines for 60 TB of climate dataset output. Developed routines to ingest and transform NetCDF4 structures into multidimensional arrays within the Fortran model core on the NCAR Derecho HPC cluster, with subsequent statistical analysis via parallelized Python (Xarray/NumPy) workflows.
 
 <iframe src="https://drive.google.com/file/d/1sqeUj7riu_lpyHYPxMysEleNBYZb2ZbS/preview" width="100%" height="500" allowfullscreen style="border: 1px solid #eee; border-radius: 6px; margin-top: 20px;"></iframe>
