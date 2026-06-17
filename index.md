@@ -17,7 +17,16 @@ nav_order: 1
     <li style="margin-bottom: 6px;">🎓 <strong>PhD. in Astrophysics</strong></li>
       <li style="margin-bottom: 6px;">🔗<a href="https://www.researchgate.net/profile/Illeana-Gomez-Leal-2" target="_blank">ResearchGate Profile</a> &middot;<a href="https://orcid.org/0000-0003-2254-5936" target="_blank">ORCID Profile</a></li>
   </ul>
-  
+
+<div style="background: #f8f9fa; border: 1px solid #ced4da; padding: 15px; border-radius: 6px; margin: 20px 0;">
+  <p style="margin-top:0; font-weight:bold; color:#333;">🔍 Diagnóstico de Rutas del CV:</p>
+  <ul style="padding-left:20px; line-height:1.8;">
+    <li><a href="/rad-data-sum/assets/fig/cv_graphics.pdf" target="_blank">Opción A (Absoluta manual): /rad-data-sum/assets/fig/cv_graphics.pdf</a></li>
+    <li><a href="{{ '/assets/fig/cv_graphics.pdf' | relative_url }}" target="_blank">Opción B (Filtro Jekyll): {{ '/assets/fig/cv_graphics.pdf' | relative_url }}</a></li>
+    <li><a href="./assets/fig/cv_graphics.pdf" target="_blank">Opción C (Relativa punto): ./assets/fig/cv_graphics.pdf</a></li>
+    <li><a href="assets/fig/cv_graphics.pdf" target="_blank">Opción D (Relativa directa): assets/fig/cv_graphics.pdf</a></li>
+  </ul>
+</div>  
 <a href="{{ '/rad-data-sum/assets/fig/cv_graphics.pdf' | relative_url }}" target="_blank" style="display: inline-block; padding: 8px 16px; background: #0056b3; color: #fff; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">📄 Curriculum Vitae (PDF)</a>
 
 <h3 style="color: #272d33; margin-top: 30px;">🛠️ Production Stack</h3>
