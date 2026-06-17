@@ -5,6 +5,13 @@ parent: "🔬 Research Projects"
 nav_order: 2
 description: "Radiative transfer integrations of Lagrangian L1 space filters."
 ---
+<style>
+  .site-title {
+    font-size: 1.3em !important; 
+    font-weight: 500 !important;
+    letter-spacing: 0.5px !important;
+  }
+</style>
 
 # Filter Analysis, Spectral Dimming and Climatic Response produced by a space-based Sunshade
 {: .fs-8 }
