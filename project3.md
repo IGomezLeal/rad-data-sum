@@ -5,6 +5,13 @@ parent: "🔬 Research Projects"
 nav_order: 3
 description: "4D numerical array embedding for time-space-wavelength dynamic forcing."
 ---
+<style>
+  .site-title {
+    font-size: 1.3em !important; 
+    font-weight: 500 !important;
+    letter-spacing: 0.5px !important;
+  }
+</style>
 
 # 4D Spatio-temporal Matrix Implementation and Simulations
 {: .fs-8 }
