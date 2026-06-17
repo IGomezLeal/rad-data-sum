@@ -4,6 +4,7 @@ title: "🔬 Research Projects"
 nav_order: 2
 has_children: true
 permalink: /projects/
+has_toc: false
 ---
 
 # 🔬 GCM Numerical Implementations & Core Projects
