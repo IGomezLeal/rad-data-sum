@@ -1,10 +1,30 @@
-title: "HPC & Climate Analytics"
-description: "Astrophysics · Numerical Modeling · Data Science"
+# Configuración del Sitio
+title: "Illeana Gomez-Leal, PhD."
 lang: en
 
-# Estas son las líneas que faltaban y que acabo de añadir para ti:
+# CONFIGURACIÓN DE RUTA (Esencial para GitHub Pages)
 url: "https://IGomezLeal.github.io"
 baseurl: "/rad-data-sum"
+
+# TODO EL PERFIL INYECTADO DIRECTAMENTE EN LA BARRA LATERAL
+description: >
+  <img src="/rad-data-sum/assets/fig/fpro.png" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 2px solid #eee; margin: 15px 0; display: block;">
+  <p style="margin: 0 0 10px 0; font-size: 0.85em; color: #666; font-weight: bold;">Physics · Data Science</p>
+  
+  <p style="margin: 5px 0 0 0; font-weight: bold; font-size: 0.8em; color: #272d33;">👤 Contact & Profiles</p>
+  <ul style="list-style: none; padding-left: 0; margin: 0 0 15px 0; font-size: 0.78em; line-height: 1.4;">
+    <li style="margin-bottom: 3px;">🏫 Cornell University</li>
+    <li style="margin-bottom: 3px;">🎓 PhD. in Astrophysics</li>
+    <li style="margin-bottom: 3px;">🔗 <a href="https://orcid.org/0000-0003-2254-5936" target="_blank">ORCID Profile</a></li>
+    <li style="margin-bottom: 3px;">🔗 <a href="https://www.researchgate.net/profile/Illeana-Gomez-Leal-2" target="_blank">ResearchGate Profile</a></li>
+  </ul>
+
+  <p style="margin: 0 0 5px 0; font-weight: bold; font-size: 0.8em; color: #272d33;">🛠️ Production Stack</p>
+  <ul style="list-style: none; padding-left: 0; margin: 0 0 15px 0; font-size: 0.75em; line-height: 1.3; color: #666;">
+    <li><strong>Python</strong> (Xarray, NumPy, Pandas)</li>
+    <li><strong>Fortran</strong>, Bash, SQL, IDL</li>
+    <li><strong>NetCDF4</strong>, HDF5, HPC</li>
+  </ul>
 
 # Tema nativo compatible con GitHub Pages
 remote_theme: just-the-docs/just-the-docs
