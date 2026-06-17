@@ -3,7 +3,7 @@ layout: default
 title: "1. Bolometric Dimming"
 parent: "🔬 Research Projects"
 nav_order: 1
-description: "Bolometric solar constant dimming implementation to cool the SSP2-4.5 scenario."
+description: "Bolometric solar constant dimming implementation to cool the greenhouse gas emissions SSP2-4.5 scenario."
 ---
 <style>
   .site-title {
