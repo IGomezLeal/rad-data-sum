@@ -34,6 +34,8 @@ search_enabled: true
 search:
   tokenizer: separator
   separator: '[\s\-\,]+'
-
+# Obligar a Jekyll a subir el CV sin intentar procesarlo ni leerlo
+include:
+  - assets/fig/cv_graphics.pdf
 # Apariencia del tema
 color_scheme: light
