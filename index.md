@@ -43,10 +43,13 @@ nav_order: 1
 
 <!-- ================= PIE DE PÁGINA (MARKDOWN) ================= -->
 
+---
 
 {: .note }
 Technical summary focused on multi-terabyte data architecture, computational physics, and advanced climate engineering simulations within the **Community Earth System Model** (CESM GCM) framework. Please navigate through the left sidebar menu to explore the technical details and implementations of each project.
 
-📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.  
+📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.
+
 🔒 **Privacy Note:** Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.
-{: .fs-2 .text-grey-dk-000 }
+
+{: .fs-3 .text-grey-dk-000 }
