@@ -24,7 +24,7 @@ description: "High-performance computing and advanced numerical simulations in a
 {: .fs-9 }
 
 Technical overview of multi-terabyte data architecture, computational physics, and advanced climate engineering simulations within the **Community Earth System Model** (CESM GCM) framework.
-{: .fs-6 .fw-300 .text-grey-dk-000 }
+{: .fs-5 .fw-300 .text-grey-dk-000 }
 
 ---
 
