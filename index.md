@@ -43,8 +43,6 @@ nav_order: 1
 
 <!-- ================= PIE DE PÁGINA (MARKDOWN) ================= -->
 
----
-
 <hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
 
 <div style="background-color: #f4f6f9; border-left: 4px solid #0056b3; padding: 15px; margin-bottom: 20px; border-radius: 4px; font-size: 0.95em; color: #333;">
@@ -55,5 +53,4 @@ nav_order: 1
   <p>📝 <strong>Note:</strong> This repository showcases specific technical implementations in <strong>HPC and Climate Analytics</strong>.</p>
   <p>🔒 <strong>Privacy Note:</strong> Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.</p>
 </div>
-📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.
 
