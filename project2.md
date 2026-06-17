@@ -3,7 +3,7 @@ layout: default
 title: "2. Spectral Dimming"
 parent: "🔬 Research Projects"
 nav_order: 2
-description: "Radiative transfer integrations of Lagrangian L1 space filters."
+description: "Spectral Dimming implementation of the Solar Irradiance on a Global Climate model"
 ---
 <style>
   .site-title {
@@ -17,7 +17,7 @@ description: "Radiative transfer integrations of Lagrangian L1 space filters."
   }
 </style>
 
-# Filter Analysis, Spectral Dimming and Climatic Response produced by a space-based Sunshade
+# Filter Analysis, Spectral Dimming, and Climatic Response produced by a space-based Sunshade
 {: .fs-8 }
 
 * **Framework:** CESM with the Whole Atmosphere Community Climate Model (WACCM).
