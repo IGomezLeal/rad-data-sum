@@ -1,35 +1,37 @@
-## 🚀 Explore Core Implementations
-Use the sidebar menu or click directly below to explore the detailed numerical setups, workflows, and visualization panels for each research project:
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-{% for child in site.pages %}
-  {% if child.parent == page.title %}
-1. [**{{ child.title }}**]({{ child.url | relative_url }}) — {{ child.description }}
-  {% endif %}
-{% endfor %}
-
+---
+layout: default
+title: "🔬 Research Projects"
+nav_order: 2
+has_children: true
+permalink: /projects/
+description: "High-performance computing and advanced numerical simulations in astrophysics and climate analytics."
+---
 <style>
-  .child_nav_list, #table-of-contents, .text-delta + ul, .has_children + ul {
-    display: none !important;
+  .site-title {
+    font-size: 1.3em !important; 
+    font-weight: 500 !important;
+    letter-spacing: 0.5px !important;
   }
-</style>
-=======
-1. [**1. Bolometric Dimming**](../projects/project1) — Hardcoded parameterizations of non-spectral solar constant reductions.
-2. [**2. Spectral Dimming**](../projects/project2) — Radiative transfer integrations of Lagrangian L1 space filters.
-3. [**3. 4D Matrix Simulation**](../projects/project3) — 4D numerical array embedding for time-space-wavelength dynamic forcing.
-=======
-{% for child in site.pages %}
-  {% if child.parent == page.title %}
-1. [**{{ child.title }}**]({{ child.url | relative_url }}) — {{ child.description }}
-  {% endif %}
-{% endfor %}
->>>>>>> f0e41c5f5e79b581c05a4e21afef6829347a5660
-
-<style>
-  .child_nav_list, #table-of-contents, .text-delta + ul, .has_children + ul {
-    display: none !important;
+  .side-bar {
+    width: 290px !important; /* Ajustado a los 290px que unificamos */
+    min-width: 290px !important;
   }
 </style>
 
->>>>>>> 2d2cd38cef56bcb680f1895ea20eac339ba99aba
+# 🔬 Research Projects
+{: .fs-8 }
+
+Overview of technical implementations in climate engineering, space-based Solar Radiation Management (SRM), and multi-terabyte data analytics pipelines. These projects leverage high-performance computing (HPC) clusters to simulate global atmospheric dynamics and radiative transfer modifications.
+
+Please use the left sidebar menu or the links below to explore the detailed technical architecture, core code implementations, and simulation workflows for each project:
+
+1. **[1. Project One Title Here]({{ '/projects/project1/' | relative_url }})** *Brief description of your first project or core simulation.*
+
+2. **[2. Spectral Dimming]({{ '/projects/project2/' | relative_url }})** Radiative transfer integrations of Lagrangian L1 space filters within the CESM GCM framework.
+
+3. **[3. 4D Matrix Simulation]({{ '/projects/project3/' | relative_url }})** 4D numerical array embedding for time-space-wavelength dynamic solar forcing.
+
+---
+
+📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.  
+🔒 **Privacy Note:** Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.
