@@ -47,7 +47,8 @@ Use the sidebar menu or click directly below to explore the detailed numerical s
 
 {% for child in site.pages %}
   {% if child.parent == page.title %}
-1. [**{{ child.title }}**]({{ child.url | relative_url }}) — {{ child.description }}
+    {% assign clean_title = child.title | remove: "1. " | remove: "2. " | remove: "3. " %}
+* [**{{ clean_title }}**]({{ child.url | relative_url }}) — {{ child.description }}
   {% endif %}
 {% endfor %}
 
