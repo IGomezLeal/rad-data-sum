@@ -7,6 +7,11 @@ nav_order: 3
 description: "4D numerical array embedding for time-space-wavelength dynamic forcing."
 ---
 <style>
+  /* Fuerza al navegador a mostrar siempre el espacio del scrollbar para evitar saltos de pantalla */
+  html {
+    overflow-y: scroll;
+  }
+
   .site-title {
     font-size: 1.3em !important; 
     font-weight: 500 !important;
