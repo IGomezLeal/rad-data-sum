@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "3. 4D Matrix Dimming Field"
+title: "3. 4D Matrix Dimming"
 nav_title: "3. 4D Dimming"
 parent: "🔬 Research Projects"
 nav_order: 3
