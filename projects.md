@@ -22,15 +22,17 @@ This suite of projects serves as a technical showcase of my research at **Cornel
 
 ### 📁 Data Standards: Why NetCDF?
 The projects documented here utilize **NetCDF (Network Common Data Form)**, the industry standard for array-oriented scientific data:
-* **Multidimensional:** Storage of high-resolution atmospheric variables (temperature, pressure, irradiance) across 4D spatiotemporal coordinates (x, y, z, t).
+* **Multidimensional:** Storage of high-resolution atmospheric variables (temperature, pressure, irradiance) across 4D spatiotemporal coordinates ($x, y, z, t$).
 * **Self-Describing:** Every generated file embeds strict metadata (units, coordinate variables), ensuring data integrity across long-term runs.
 * **Performance:** Optimized for large-scale parallel I/O architectures on the **NCAR Derecho** supercomputer.
 
 ---
 
 ## 🚀 Explore Core Implementations
-Use the sidebar menu or click below to explore the detailed numerical setups, workflows, and visualization panels for each project:
-[**1. Bolometric Dimming**](./proyecto1) —
-1. [**1. Bolometric Dimming**](./project1.md) — Hardcoded parameterizations of non-spectral solar constant reductions.
-2. [**2. Spectral Dimming**](./project2.md) — Radiative transfer integrations of Lagrangian L1 space filters.
-3. [**3. 4D Matrix Simulation**](./project3.md) — 4D numerical array embedding for time-space-wavelength dynamic forcing.
+Use the sidebar menu or click directly below to explore the detailed numerical setups, workflows, and visualization panels for each research project:
+
+{% for child in site.pages %}
+  {% if child.parent == page.title %}
+1. [**{{ child.title }}**]({{ child.url | relative_url }}) — {% if child.title contains "1." %}Hardcoded parameterizations of non-spectral solar constant reductions.{% elsif child.title contains "2." %}Radiative transfer integrations of Lagrangian L1 space filters.{% elsif child.title contains "3." %}4D numerical array embedding for time-space-wavelength dynamic forcing.{% endif %}
+  {% endif %}
+{% endfor %}
