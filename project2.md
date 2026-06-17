@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "2. Spectral Dimming"
-nav_order: 3
+parent: "🔬 Research Projects"
+nav_order: 2
 ---
 
 # Filter Analysis, Spectral Dimming and Climatic Response produced by a space-based Sunshade
