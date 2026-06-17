@@ -4,7 +4,6 @@ title: "🔬 Research Projects"
 nav_order: 2
 has_children: true
 permalink: /projects/
-has_toc: false
 ---
 
 # 🔬 GCM Numerical Implementations & Core Projects
@@ -32,13 +31,14 @@ The projects documented here utilize **NetCDF (Network Common Data Form)**, the 
 ## 🚀 Explore Core Implementations
 Use the sidebar menu or click directly below to explore the detailed numerical setups, workflows, and visualization panels for each research project:
 
-{: .new-title }
-> ### Research Suite Navigation
->
-> 1. [**1. Bolometric Dimming**](/rad-data-sum/projects/project1.html)  
->    Hardcoded parameterizations of non-spectral solar constant reductions.
-> 2. [**2. Spectral Dimming**](/rad-data-sum/projects/project2.html)  
->    Radiative transfer integrations of Lagrangian L1 space filters.
-> 3. [**3. 4D Matrix Simulation**](/rad-data-sum/projects/project3.html)  
->    4D numerical array embedding for time-space-wavelength dynamic forcing.
-{: .block-danger }
+{% for child in site.pages %}
+  {% if child.parent == page.title %}
+1. [**{{ child.title }}**]({{ child.url | relative_url }}) — {{ child.description }}
+  {% endif %}
+{% endfor %}
+
+<style>
+  .child_nav_list, #table-of-contents, .text-delta + ul {
+    display: none !important;
+  }
+</style>
