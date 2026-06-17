@@ -14,8 +14,8 @@ description: "4D numerical array embedding for time-space-wavelength dynamic for
   }
   /* Fuerza a la barra lateral izquierda a mantener un ancho fijo idéntico en todo el sitio */
   .side-bar {
-    width: 260px !important; /* Ajusta este número si la quieres un poco más estrecha o ancha */
-    min-width: 260px !important;
+    width: 290px !important; /* Ajusta este número si la quieres un poco más estrecha o ancha */
+    min-width: 290px !important;
   }
 </style>
 
