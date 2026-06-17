@@ -41,7 +41,6 @@ The projects documented here utilize **NetCDF (Network Common Data Form)**, the 
 * **Performance:** Optimized for large-scale parallel I/O architectures on the **NCAR Derecho** supercomputer.
 
 ---
-
 ## 🚀 Explore Core Implementations
 Use the sidebar menu or click directly below to explore the detailed numerical setups, workflows, and visualization panels for each research project:
 
@@ -51,12 +50,13 @@ Use the sidebar menu or click directly below to explore the detailed numerical s
 * [**{{ clean_title }}**]({{ child.url | relative_url }}) — {{ child.description }}
   {% endif %}
 {% endfor %}
-  /* Oculta por completo la lista de navegación automática del tema al final de la página */
+
 <style>
-  .child_nav_list,.child-nav, ul.nav-list + ul, #table-of-contents, .text-delta + ul, .has_children + ul {
+  /* Oculta por completo la lista de navegación automática del tema al final de la página */
+  .child_nav_list, .child-nav, ul.nav-list + ul, #table-of-contents, .text-delta + ul, .has_children + ul, .nav-list + ul {
     display: none !important;
   }
-<style>
+</style>
 ---
 
 📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.  
