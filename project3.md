@@ -4,7 +4,7 @@ title: "3. Dimming Field"
 nav_title: "3. Dimming Field"
 parent: "🔬 Research Projects"
 nav_order: 3
-description: "4D numerical array embedding for time-space-wavelength dynamic forcing."
+description: "4D numerical array code modification for time-space-wavelength dynamic forcing."
 ---
 <style>
   /* Fuerza al navegador a mostrar siempre el espacio del scrollbar para evitar saltos de pantalla */
