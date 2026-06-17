@@ -4,7 +4,6 @@ title: "🔬 Research Projects"
 nav_order: 2
 has_children: true
 permalink: /projects/
-child_nav: max
 ---
 
 # 🔬 GCM Numerical Implementations & Core Projects
@@ -30,5 +29,10 @@ The projects documented here utilize **NetCDF (Network Common Data Form)**, the 
 ---
 
 ## 🚀 Explore Core Implementations
-Use the sidebar menu or click directly below on the automatic Table of Contents to explore the detailed numerical setups, workflows, and visualization panels for each research project:
-{% endfor %}for %}
+Use the sidebar menu or click directly below to explore the detailed numerical setups, workflows, and visualization panels for each research project:
+
+{% for child in site.pages %}
+  {% if child.parent == page.title %}
+1. [**{{ child.title }}**]({{ child.url | relative_url }}) — {{ child.description }}
+  {% endif %}
+{% endfor %}
