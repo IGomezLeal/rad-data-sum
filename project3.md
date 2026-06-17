@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "3. 4D Matrix Simulation"
-nav_order: 4
+parent: "🔬 Research Projects"
+nav_order: 3
 ---
 
 # 4D Spatio-temporal Matrix Implementation and Simulations
