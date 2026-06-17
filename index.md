@@ -3,7 +3,13 @@ layout: default
 title: "Home"
 nav_order: 1
 ---
-
+<style>
+  .site-title {
+    font-size: 1.3em !important; 
+    font-weight: 500 !important;
+    letter-spacing: 0.5px !important;
+  }
+</style>
 <!-- ================= ENCABEZADO Y PERFIL (HTML) ================= -->
 <h1 style="margin-bottom: 5px; color: #272d33;">Illeana Gomez-Leal, PhD.</h1>
 <p style="font-size: 1.15em; font-weight: 300; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 25px;">Physics &middot; Data Science &middot; Numerical Modeling &middot; HPC</p>
