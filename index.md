@@ -23,9 +23,10 @@ nav_order: 1
 
 <h3 style="color: #272d33; margin-top: 30px;">🛠️ Production Stack</h3>
 <ul style="padding-left: 20px; line-height: 1.6; color: #333; margin-bottom: 25px;">
-  <li style="margin-bottom: 6px;"><strong>Languages:</strong> Python (Xarray, NumPy, Pandas, Matplotlib), Fortran, Bash, SQL, IDL.</li>
+  <li style="margin-bottom: 6px;"><strong>Programming Languages:</strong> Python (Xarray, NumPy, Pandas, Matplotlib), Fortran, Bash, SQL, IDL.</li>
   <li style="margin-bottom: 6px;"><strong>Data Standards:</strong> NetCDF4, HDF5 (multidimensional arrays).</li>
   <li style="margin-bottom: 6px;"><strong>Infrastructure:</strong> HPC (SLURM/PBS environments), Linux, Git, LaTeX.</li>
+ <li style="margin-bottom: 6px;"><strong>Languages:</strong> Fluent in English, Spanish, French, Italian.</li>
 </ul>
 
 <h3 style="color: #272d33; margin-top: 30px;">🤝 Research Collaborations</h3>
