@@ -9,6 +9,10 @@ nav_order: 1
     font-weight: 500 !important;
     letter-spacing: 0.5px !important;
   }
+  .side-bar {
+    width: 290px !important; /* Ajustado a los 290px que unificamos */
+    min-width: 290px !important;
+  }
 </style>
 <!-- ================= ENCABEZADO Y PERFIL (HTML) ================= -->
 <h1 style="margin-bottom: 5px; color: #272d33;">Illeana Gomez-Leal, PhD.</h1>
