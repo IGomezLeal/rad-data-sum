@@ -30,7 +30,7 @@ The projects documented here utilize **NetCDF (Network Common Data Form)**, the 
 
 ## 🚀 Explore Core Implementations
 Use the sidebar menu or click below to explore the detailed numerical setups, workflows, and visualization panels for each project:
-
-1. [**1. Bolometric Dimming**](./proyect1.md) — Hardcoded parameterizations of non-spectral solar constant reductions.
-2. [**2. Spectral Dimming**](./proyect2.md) — Radiative transfer integrations of Lagrangian L1 space filters.
-3. [**3. 4D Matrix Simulation**](./proyect3.md) — 4D numerical array embedding for time-space-wavelength dynamic forcing.
+[**1. Bolometric Dimming**](./proyecto1) —
+1. [**1. Bolometric Dimming**](./project1.md) — Hardcoded parameterizations of non-spectral solar constant reductions.
+2. [**2. Spectral Dimming**](./project2.md) — Radiative transfer integrations of Lagrangian L1 space filters.
+3. [**3. 4D Matrix Simulation**](./project3.md) — 4D numerical array embedding for time-space-wavelength dynamic forcing.
