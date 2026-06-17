@@ -22,7 +22,7 @@ This suite of projects serves as a technical showcase of my research at **Cornel
 
 ### 📁 Data Standards: Why NetCDF?
 The projects documented here utilize **NetCDF (Network Common Data Form)**, the industry standard for array-oriented scientific data:
-* **Multidimensional:** Storage of high-resolution atmospheric variables (temperature, pressure, irradiance) across 4D spatiotemporal coordinates ($x, y, z, t$).
+* **Multidimensional:** Storage of high-resolution atmospheric variables (temperature, pressure, irradiance) across 4D spatiotemporal coordinates (x, y, z, t).
 * **Self-Describing:** Every generated file embeds strict metadata (units, coordinate variables), ensuring data integrity across long-term runs.
 * **Performance:** Optimized for large-scale parallel I/O architectures on the **NCAR Derecho** supercomputer.
 
