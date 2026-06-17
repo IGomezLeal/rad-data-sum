@@ -4,6 +4,7 @@ title: "🔬 Research Projects"
 nav_order: 2
 has_children: true
 permalink: /projects/
+child_nav: max
 ---
 
 # 🔬 GCM Numerical Implementations & Core Projects
@@ -22,17 +23,12 @@ This suite of projects serves as a technical showcase of my research at **Cornel
 
 ### 📁 Data Standards: Why NetCDF?
 The projects documented here utilize **NetCDF (Network Common Data Form)**, the industry standard for array-oriented scientific data:
-* **Multidimensional:** Storage of high-resolution atmospheric variables (temperature, pressure, irradiance) across 4D spatiotemporal coordinates ($x, y, z, t$).
+* **Multidimensional:** Storage of high-resolution atmospheric variables (temperature, pressure, irradiance) across 4D spatiotemporal coordinates **(x, y, z, t)**.
 * **Self-Describing:** Every generated file embeds strict metadata (units, coordinate variables), ensuring data integrity across long-term runs.
 * **Performance:** Optimized for large-scale parallel I/O architectures on the **NCAR Derecho** supercomputer.
 
 ---
 
 ## 🚀 Explore Core Implementations
-Use the sidebar menu or click directly below to explore the detailed numerical setups, workflows, and visualization panels for each research project:
-
-{% for child in site.pages %}
-  {% if child.parent == page.title %}
-1. [**{{ child.title }}**]({{ child.url | relative_url }}) — {% if child.title contains "1." %}Hardcoded parameterizations of non-spectral solar constant reductions.{% elsif child.title contains "2." %}Radiative transfer integrations of Lagrangian L1 space filters.{% elsif child.title contains "3." %}4D numerical array embedding for time-space-wavelength dynamic forcing.{% endif %}
-  {% endif %}
+Use the sidebar menu or click directly below on the automatic Table of Contents to explore the detailed numerical setups, workflows, and visualization panels for each research project:
 {% endfor %}for %}
