@@ -51,12 +51,12 @@ Use the sidebar menu or click directly below to explore the detailed numerical s
 * [**{{ clean_title }}**]({{ child.url | relative_url }}) — {{ child.description }}
   {% endif %}
 {% endfor %}
-
+  /* Oculta por completo la lista de navegación automática del tema al final de la página */
 <style>
-  .child_nav_list, #table-of-contents, .text-delta + ul, .has_children + ul {
+  .child_nav_list,.child-nav, ul.nav-list + ul, #table-of-contents, .text-delta + ul, .has_children + ul {
     display: none !important;
   }
-</style>
+<style>
 ---
 
 📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.  
