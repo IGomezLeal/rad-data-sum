@@ -51,8 +51,9 @@ Use the sidebar menu or click directly below to explore the detailed numerical s
   {% endif %}
 {% endfor %}
 
-{: .no_toc }
----
+<hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
-📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.  
-🔒 **Privacy Note:** Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.ines or Fortran core modifications) are available upon request.
+<div style="font-size: 0.85em; color: #555; line-height: 1.6; margin-top: 20px;">
+  <p>📝 <strong>Note:</strong> This repository showcases specific technical implementations in <strong>HPC and Climate Analytics</strong>.</p>
+  <p>🔒 <strong>Privacy Note:</strong> Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.</p>
+</div>
