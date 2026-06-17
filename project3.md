@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "3. 4D Matrix Simulation"
+title: "3. 4D Matrix Dimming Field"
+nav_title: "3. 4D Dimming"
 parent: "🔬 Research Projects"
 nav_order: 3
 description: "4D numerical array embedding for time-space-wavelength dynamic forcing."
@@ -13,7 +14,7 @@ description: "4D numerical array embedding for time-space-wavelength dynamic for
   }
 </style>
 
-# 4D Spatio-temporal Matrix Implementation and Simulations
+# 4D Spatio-temporal Matrix Implementation and Climate Simulations
 {: .fs-8 }
 
 * **Framework:** Modification of the solar forcing arrays inside the CESM GCM radiative transfer and the chemical modules.
