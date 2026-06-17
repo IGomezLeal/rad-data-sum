@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Dimming Field"
+title: "3. Dimming Field"
 nav_title: "3. Dimming Field"
 parent: "🔬 Research Projects"
 nav_order: 3
