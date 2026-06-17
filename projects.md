@@ -10,8 +10,7 @@ permalink: /projects/
 {: .fs-9 }
 
 Technical overview of multi-terabyte data architecture, computational physics, and advanced climate engineering simulations within the **Community Earth System Model** (CESM GCM) framework.
-{: .fs-6 .fw-300 .text-delta }
-
+{: .fs-6 .fw-300 .text-grey-dk-000 }
 ---
 
 ## 🔬 Scientific Overview
