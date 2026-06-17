@@ -14,4 +14,8 @@ description: "Radiative transfer integrations of Lagrangian L1 space filters."
 * **Analytics Workflow:** Developed spectral analysis pipelines to evaluate different wavelength bands radiation attenuations on the near infrared, focusing on different climate responses. Computed multidimensional climate anomaly diagnostics under the Shared Socioeconomic Pathways (SSP) framework **SSP2-4.5** future scenario.
 * **Big Data Scale:** High-throughput I/O pipelines for 60 TB of climate dataset output. Developed routines to ingest and transform NetCDF4 structures into multidimensional arrays within the Fortran model core on the NCAR Derecho HPC cluster, with subsequent statistical analysis via parallelized Python (Xarray/NumPy) workflows.
 
+<p style="font-size: 0.9em; color: #666; font-style: italic; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+  ↗️ <span>Press the pop-up icon on the top right corner to see the slides in full screen:</span>
+</p>
+
 <iframe src="https://drive.google.com/file/d/1sqeUj7riu_lpyHYPxMysEleNBYZb2ZbS/preview" width="100%" height="500" allowfullscreen style="border: 1px solid #eee; border-radius: 6px; margin-top: 20px;"></iframe>
