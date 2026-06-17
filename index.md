@@ -45,11 +45,15 @@ nav_order: 1
 
 ---
 
-{: .note }
-Technical summary focused on multi-terabyte data architecture, computational physics, and advanced climate engineering simulations within the **Community Earth System Model** (CESM GCM) framework. Please navigate through the left sidebar menu to explore the technical details and implementations of each project.
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
 
+<div style="background-color: #f4f6f9; border-left: 4px solid #0056b3; padding: 15px; margin-bottom: 20px; border-radius: 4px; font-size: 0.95em; color: #333;">
+  Technical summary focused on multi-terabyte data architecture, computational physics, and advanced climate engineering simulations within the <strong>Community Earth System Model</strong> (CESM GCM) framework. Please navigate through the left sidebar menu to explore the technical details and implementations of each project.
+</div>
+
+<div style="font-size: 0.9em; color: #555; line-height: 1.6;">
+  <p>📝 <strong>Note:</strong> This repository showcases specific technical implementations in <strong>HPC and Climate Analytics</strong>.</p>
+  <p>🔒 <strong>Privacy Note:</strong> Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.</p>
+</div>
 📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.
 
-🔒 **Privacy Note:** Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.
-
-{: .fs-3 .text-grey-dk-000 }
