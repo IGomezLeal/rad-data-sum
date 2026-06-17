@@ -32,7 +32,7 @@ nav_order: 1
 <ul style="padding-left: 20px; line-height: 1.6; color: #333; margin-bottom: 30px;">
   <li style="margin-bottom: 8px;"><strong>National Center for Atmospheric Research</strong> (NCAR) in Boulder, CO: Prof. Simone Tilmes.</li>
   <li style="margin-bottom: 8px;"><strong>Planetary Sunshade Institute</strong> (PSI) in Los Angeles, CA: Morgan Goodwin, CEO.</li>
-  <li style="margin-bottom: 8px;"><strong>University of Nottingham, UK</strong>: Prof. Chantal Cappelletti, Prof. Nishanth Pushparaj, Abian Sanchez.</li>
+  <li style="margin-bottom: 8px;"><strong>University of Nottingham, UK</strong>: Prof. Chantal Cappelletti, Prof. Nishanth Pushparaj.</li>
 </ul>
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
