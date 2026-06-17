@@ -5,6 +5,13 @@ nav_order: 2
 has_children: true
 permalink: /projects/
 ---
+<style>
+  .site-title {
+    font-size: 1.3em !important; 
+    font-weight: 500 !important;
+    letter-spacing: 0.5px !important;
+  }
+</style>
 
 # 🔬 GCM Numerical Implementations, Simulations, and Analysis
 {: .fs-9 }
