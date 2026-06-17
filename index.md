@@ -15,7 +15,7 @@ nav_order: 1
   <ul style="list-style: none; padding-left: 0; margin-bottom: 20px; line-height: 1.6; color: #333;">
     <li style="margin-bottom: 6px;">🏫 Postdoctoral Associate at <strong>Cornell University</strong></li>
     <li style="margin-bottom: 6px;">🎓 <strong>PhD. in Astrophysics</strong></li>
-      <li style="margin-bottom: 6px;">🔗<a href="https://www.researchgate.net/profile/Illeana-Gomez-Leal-2" target="_blank">ResearchGate Profile</a> &middot& ;<a href="https://orcid.org/0000-0003-2254-5936" target="_blank">ORCID Profile</a></li>
+      <li style="margin-bottom: 6px;">🔗<a href="https://www.researchgate.net/profile/Illeana-Gomez-Leal-2" target="_blank">ResearchGate Profile</a> &middot; <a href="https://orcid.org/0000-0003-2254-5936" target="_blank">ORCID Profile</a></li>
   </ul>
  
 <div style="margin: 20px 0;">
