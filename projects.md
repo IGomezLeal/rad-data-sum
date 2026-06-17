@@ -44,19 +44,34 @@ The projects documented here utilize **NetCDF (Network Common Data Form)**, the 
 ## 🚀 Explore Core Implementations
 Use the sidebar menu or click directly below to explore the detailed numerical setups, workflows, and visualization panels for each research project:
 
+<div class="mis-proyectos-limpios" style="margin-top: 20px;">
 {% for child in site.pages %}
   {% if child.parent == page.title %}
     {% assign clean_title = child.title | remove: "1. " | remove: "2. " | remove: "3. " %}
 * [**{{ clean_title }}**]({{ child.url | relative_url }}) — {{ child.description }}
   {% endif %}
 {% endfor %}
+</div>
 
 <style>
-  /* Oculta por completo la lista de navegación automática del tema al final de la página */
-  .child_nav_list, .child-nav, ul.nav-list + ul, #table-of-contents, .text-delta + ul, .has_children + ul, .nav-list + ul {
+  /* Apunta a CUALQUIER lista ordenada o desordenada que aparezca DESPUÉS de nuestro contenedor seguro y la fulmina */
+  .mis-proyectos-limpios ~ ul, 
+  .mis-proyectos-limpios ~ ol,
+  .child_nav_list, 
+  .child-nav, 
+  #table-of-contents {
     display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
   }
 </style>
+
+---
+
+📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.  
+🔒 **Privacy Note:** Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.
 ---
 
 📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.  
