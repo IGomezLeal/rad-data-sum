@@ -7,7 +7,13 @@ nav_order: 4
 # 4D Spatio-temporal Matrix Implementation and Simulations
 {: .fs-8 }
 
-* **Framework:** Modificación de las matrices de forzamiento solar dentro de los módulos químicos y de transferencia radiativa de CESM GCM.
-* **Implementation:** Arquitectura e inserción de **matrices numéricas 4D** en el núcleo del modelo para simular la atenuación del forzamiento solar producido por un parasol en L1 con variabilidad en tiempo, latitud, longitud y longitud de onda.
-* **Analytics Workflow:** Implementación de distribuciones espaciotemporales dinámicas de factores de atenuación que escalan la irradiancia solar en la cima de la atmósfera (*Top of the Atmosphere*). Análisis de respuestas climáticas multivariable a lo largo de una línea temporal de 30 años [2035, 2065].
-* **Core Skills:** Modificaciones avanzadas en Fortran, generación e implementación de estructuras NetCDF y visualización 3D de alta resolución.
+* **Framework:** Modification of the solar forcing arrays inside the CESM GCM radiative transfer and the chemical modules.
+* **Implementation:** Architected and embedded **4D numerical matrices** into the model's core to simulate the solar forcing dimming produced by a space-based sunshade located at the first Lagrangian point (L1). The dimming has a variability in time, latitude, longitude, and wavelength.
+* **Analytics Workflow:** Implemented dynamic spatiotemporal distributions of dimming factors that scale the solar irradiance at the top of the atmosphere. Analysis of multi-variable climate responses to the localized radiative forcing over a long-term 30-year timeline [2035, 2065].
+* **Core Skills:** Advanced Fortran modifications, NetCDF data creation and implementation on the global climate model, multidimensional coordinate mapping, and high-resolution 3D visualization.
+
+---
+
+📝 **Note:** This repository showcases specific technical implementations in **HPC and Climate Analytics**.  
+🔒 **Privacy Note:** Full source code and configuration files are hosted in private repositories. Specific code samples (e.g., Python data pipelines or Fortran core modifications) are available upon request.
+{: .fs-2 .text-grey-dk-000 }
