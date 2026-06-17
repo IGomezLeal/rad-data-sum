@@ -27,7 +27,9 @@ nav_order: 1
     <li><a href="assets/fig/cv_graphics.pdf" target="_blank">Opción D (Relativa directa): assets/fig/cv_graphics.pdf</a></li>
   </ul>
 </div>  
-<a href="{{ '/rad-data-sum/assets/fig/cv_graphics.pdf' | relative_url }}" target="_blank" style="display: inline-block; padding: 8px 16px; background: #0056b3; color: #fff; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">📄 Curriculum Vitae (PDF)</a>
+
+<a href="{{ '/assets/fig/cv_graphics.pdf' | relative_url }}" target="_blank" style="display: inline-block; padding: 8px 16px; background: #0056b3; color: #fff; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">📄 Curriculum Vitae (PDF)</a>
+
 
 <h3 style="color: #272d33; margin-top: 30px;">🛠️ Production Stack</h3>
 <ul style="padding-left: 20px; line-height: 1.6; color: #333; margin-bottom: 25px;">
