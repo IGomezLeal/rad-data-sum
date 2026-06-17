@@ -9,7 +9,16 @@ nav_order: 1
 <p style="font-size: 1.15em; font-weight: 300; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; margin-bottom: 25px;">Physics &middot; Data Science &middot; Numerical Modeling &middot; HPC</p>
 
 <div class="profile-card" style="background: #fafafa; padding: 25px; border-radius: 8px; border: 1px solid #eee; margin-bottom: 30px;">
-  <img src="/rad-data-sum/assets/fig/fpro.png" alt="Illeana Gomez-Leal, PhD." style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 20px; display: block;">
+  
+  <!-- Contenedor Flex para alinear la Foto y la Presentación de lado a lado -->
+  <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 25px; flex-wrap: wrap;">
+    <img src="/rad-data-sum/assets/fig/fpro.png" alt="Illeana Gomez-Leal, PhD." style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block;">
+    <div style="flex: 1; min-width: 250px;">
+      <p style="font-size: 1.1em; line-height: 1.5; color: #333; margin: 0; font-style: italic;">
+        "I am an astrophysicist and data scientist specialized in high-performance computing, large-scale data architectures, and advanced climate modeling."
+      </p>
+    </div>
+  </div>
   
   <h3 style="margin-top: 0; margin-bottom: 12px; color: #272d33;">👤 Contact & Professional Profiles</h3>
   <ul style="list-style: none; padding-left: 0; margin-bottom: 20px; line-height: 1.6; color: #333;">
@@ -29,7 +38,7 @@ nav_order: 1
   <li style="margin-bottom: 6px;"><strong>Programming Languages:</strong> Python (Xarray, NumPy, Pandas, Matplotlib), Fortran, Bash, SQL, IDL.</li>
   <li style="margin-bottom: 6px;"><strong>Data Standards:</strong> NetCDF4, HDF5 (multidimensional arrays).</li>
   <li style="margin-bottom: 6px;"><strong>Infrastructure:</strong> HPC (SLURM/PBS environments), Linux, Git, LaTeX.</li>
- <li style="margin-bottom: 6px;"><strong>Languages:</strong> Fluent in English, Spanish, French, Italian.</li>
+ <li style="margin-bottom: 6px;"><strong>Languages:</strong> Fluent in English, Spanish, French, and Italian.</li>
 </ul>
 
 <h3 style="color: #272d33; margin-top: 30px;">🤝 Research Collaborations</h3>
