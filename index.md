@@ -25,7 +25,7 @@ nav_order: 1
     <img src="/rad-data-sum/assets/fig/fpro.png" alt="Illeana Gomez-Leal, PhD." style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block;">
     <div style="flex: 1; min-width: 250px;">
       <p style="font-size: 1.1em; line-height: 1.5; color: #333; margin: 0; font-style: italic;">
-        I am an astrophysicist and data scientist specialized in high-performance computing, large-scale data architectures, and advanced climate modeling.</p>
+        I am an astrophysicist and data scientist specialized in high-performance computing, large-scale data architectures, radiative transfer, and advanced climate modeling.</p>
     </div>
   </div>
   
