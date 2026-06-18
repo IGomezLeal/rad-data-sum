@@ -31,7 +31,7 @@ nav_order: 1
   
   <h3 style="margin-top: 0; margin-bottom: 12px; color: #272d33;">👤 Contact & Professional Profiles</h3>
   <ul style="list-style: none; padding-left: 0; margin-bottom: 20px; line-height: 1.6; color: #333;">
-    <li style="margin-bottom: 6px;">🏫 Postdoctoral Associate at <strong>Cornell University</strong></li>
+    <li style="margin-bottom: 6px;">🏫 Research Associate at <strong>Cornell University</strong></li>
     <li style="margin-bottom: 6px;">🎓 <strong>PhD. in Astrophysics</strong></li>
       <li style="margin-bottom: 6px;">🔗<a href="https://www.researchgate.net/profile/Illeana-Gomez-Leal-2" target="_blank">ResearchGate Profile</a> &middot; <a href="https://orcid.org/0000-0003-2254-5936" target="_blank">ORCID Profile</a></li>
   </ul>
